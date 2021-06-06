@@ -1,0 +1,122 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .header .fa-bars {
+        display: block;
+    }
+
+    .header .navbar {
+        position: fixed;
+        top: -120%;
+        left: 0;
+        border-radius: .5rem;
+        background-color: #333;
+        height: auto;
+        width: 70%;
+        z-index: 100;
+    }
+
+    .header .navbar ul {
+        height: 100%;
+        width: 100%;
+        flex-flow: column;
+        padding: 5rem 0;
+        /* border: 1px solid red; */
+    }
+
+    .header .navbar ul li {
+        margin: 1rem 0;
+        border: .1rem solid #FF725E;
+        padding: 1rem .5rem;
+        border-radius: .5rem;
+        width: 20%;
+        margin-left: 20%;
+        letter-spacing: 1px;
+    }
+
+    .header .navbar ul li a {
+        color: #fff;
+        font-size: 2.4rem;
+    }
+
+    .header .fa-times {
+        transform: rotate(180deg);
+    }
+
+    .header .nav-toggle {
+        top: 12.5rem;
+    }
+
+
+    .home .banner {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .home .slogan {
+        font-size: 1.7rem;
+    }
+
+    .about .row1 {
+        padding: 0 2rem;
+        flex-direction: column-reverse;
+    }
+
+    .about .row1 .about-img img {
+        width: 100vw;
+    }
+
+    .service .row1 {
+        flex-direction: column-reverse;
+    }
+
+    .service .row1:nth-child(even) {
+        flex-direction: column;
+        /* border: 1px solid black; */
+    }
+
+    .service .row1 .service-img img {
+        width: 100vw;
+    }
+
+    .service .row1 .content {
+        padding: 0;
+    }
+
+    .contact .row1 {
+        flex-direction: column;
+    }
+
+    .contact .image {
+        width: 100vw;
+    }
+
+    .contact .row1 .form-container {
+        padding: 0 1.5rem;
+        width: 100%;
+    }
+
+    .faq {
+        padding: 0;
+    }
+
+    .faq .row1 {
+        padding: 0 1rem;
+        flex-flow: column;
+    }
+
+    .faq .row1 .image img {
+        width: 100vw;
+    }
+
+    .faq .row1 .accordion-container {
+        width: 100%;
+    }
+
+    .footer-copy {
+        font-size: 1.5rem;
+    }
+
+}
